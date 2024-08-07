@@ -1,37 +1,31 @@
 # GameHub
 
-GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more. 
+In this project, I've implemented a small, but useful and really fast working React Application that is used to show brand new computer games to users.
 
-This is the project we build in my Ultimate React course. You can find the full course at: https://codewithmosh.com 
+Deploy is working on [Vercel](https://game-c6vnbm3y0-anteks-projects-8a0ca6ca.vercel.app/)
 
-## Getting Started
+Have fun!
 
-To get started with GameHub, follow these steps:
+## Technology Stack
 
+During the development process, I've used several front-end JS technologies:
 
-1. Clone this repository to your local machine.
-2. Run `npm install` to install the required dependencies.
-3. Get a RAWG API key at https://rawg.io/apidocs. You'll have to create an account first. 
-4. Add the API key to **src/services/api-client.ts**
-5. Run `npm run dev` to start the web server. 
+- **React**, probably the best JS library ever
+- **React Query**, powerful stuff for React.js development
+- **Chakra UI** as a basic component library which allows quickly adding and styling all needed UI components
+- **Infinite Scroll**, which allows the user to open more and more content on the page
+- **Change Theme Button**
 
-## About the Course 
+## How to use
 
-I have designed this course to teach you everything you need to know to become a proficient React developer. This course is the first part of a two-part series, covering the fundamentals. You'll learn how to:
+1. Clone this repo to your PC:
+   ```bash
+   git clone <repo-url>
+   ```
 
-- Build front-end apps with React and TypeScript
-- Build reusable function components
-- Style your components using vanilla CSS, CSS modules, and CSS-in-JS
-- Manage component state
-- Build forms with React Hook Forms
-- Implement form validation using Zod
-- Connect your React apps to the backend
-- Deploy your React apps
-- Use VSCode shortcuts to increase your productivity
-- Write clean code like a pro
-- Apply best practices
-
-
-By the end of this course, you'll have a solid understanding of React and be able to build real-world applications with React and TypeScript.
-
-You can find the full course at: https://codewithmosh.com 
+2. Get an API key from RAWG
+3. Create a .env file with your Key and Base API URL
+4. Start an app using: 
+```bash
+npm run dev
+```
