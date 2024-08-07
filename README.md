@@ -2,7 +2,7 @@
 
 In this project, I've implemented a small, but useful and really fast working React Application that is used to show brand new computer games to users.
 
-Deploy is working on [Vercel](https://game-c6vnbm3y0-anteks-projects-8a0ca6ca.vercel.app/)
+Deploy is working on [Vercel](https://game-hub-rho-pearl.vercel.app)
 
 Have fun!
 
